@@ -1,4 +1,4 @@
-## Sedimenting Sphere
+## Tank drainage
 
 (c) 2016 Mathias Vangö, JKU/PFM
 
@@ -24,7 +24,7 @@ N/A
 
 The developed solver is based on a coupled Volume of Fluid (VOF) and Discrete Element Method (DEM), similar as described in Sun et al. [[1]](#ref1) and Jing et al. [[2]](#ref2). The model is extended to handle n-amount of continuous phases, thus it is not limited to two continuous phases only. This testcase simulates the drainage of a stratified water-oil-air system through a dense packed particle bed. Atmospheric pressure is set at the top as well as at the outlet, thus the flow is driven by gravity only. The images below shows the domain and how such a 4-phase system can look like, as well as the obtained volumetric outflow rate of the individual phases over time.
 
-![domain](domain.png "Water-oil-air-particle system") ![volFlow](volFlow.png "Volumetric flow rate over time")
+![domain](domain.png =300x "Water-oil-air-particle system") ![volFlow](volFlow.png =300x "Volumetric flow rate over time")
 
 ##### Output
 

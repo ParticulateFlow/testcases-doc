@@ -44,4 +44,4 @@ M. Efe Kinaci (JKU/PFM), 12 Dec 2016
 
 ##### Extended Documentation
 
-N/A (fix chem/shrink command)
+[fix chem/shrink command](https://github.com/ParticulateFlow/LIGGGHTS/blob/feature/chemistry/doc/fix_chem_shrink.html)

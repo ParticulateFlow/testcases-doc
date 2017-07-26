@@ -4,13 +4,13 @@
 
 ##### Testcase Source
 
-[CFDEMcoupling-PFM github repo](https://github.com/ParticulateFlow/CFDEMcoupling/tree/feature/cfdemSolverMultiphase/tutorials/cfdemSolverMultiphase/TankDrainage)
+[CFDEMcoupling-PFM github repo](https://github.com/ParticulateFlow/CFDEMcoupling/tree/feature/OF4x-multiphase/tutorials/cfdemSolverMultiphase/tankDrainage)
 
 ##### Software Sources
 
-* [CFDEMcoupling-PFM branch feature/cfdemSolverMultiphase](https://github.com/ParticulateFlow/CFDEMcoupling/tree/feature/cfdemSolverMultiphase)
+* [CFDEMcoupling-PFM branch feature/OF4x-multiphase](https://github.com/ParticulateFlow/CFDEMcoupling/tree/feature/OF4x-multiphase)
 * [LIGGGHTS-PFM branch develop](https://github.com/ParticulateFlow/LIGGGHTS/tree/develop)
-* [OpenFOAM-2.3.x commit 4d6f4a3115ff76ec4154c580eb041bc95ba4ec09](https://github.com/OpenFOAM/OpenFOAM-2.3.x)
+* [OpenFOAM-4.x](https://github.com/OpenFOAM/OpenFOAM-4.x)
 
 ##### CiteMe
 
@@ -22,7 +22,7 @@ N/A
 
 ##### Abstract
 
-The developed solver is based on a coupled Volume of Fluid (VOF) and Discrete Element Method (DEM), similar as described in Sun et al. [[1]](#ref1) and Jing et al. [[2]](#ref2). The model is extended to handle n-amount of continuous phases, thus it is not limited to two continuous phases only. This testcase simulates the drainage of a stratified water-oil-air system through a dense packed particle bed. Atmospheric pressure is set at the top as well as at the outlet, thus the flow is driven by gravity only. The images below shows the domain and how such a 4-phase system can look like, as well as the obtained volumetric outflow rate of the individual phases over time.
+This testcase runs with the self-implemented solver cfdemSolverMultiphase. It is a coupled VOF (Volume of Fluid) and DEM (Discrete Element Method) model capable of handling n continuous phases, similar to the ones described in [1]](#ref1) and [[2]](#ref2). The testcase simulates the drainage of a stratified water-oil-air system through a densely packed particle bed. The flow is purely gravity driven, i.e. atmospheric pressure boundary conditions is used at the top as well as at the outlet. The left image below shows a snapshot of the simulation and the right image depicts the monitored volumetric outflow rate of the different fluids.
 
 ![domain](domain.png "Water-oil-air-particle system") ![volFlow](volFlow.png "Volumetric flow rate over time")
 
